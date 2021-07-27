@@ -1,0 +1,22 @@
+header {
+  height: calc(100vh);
+  @extend %fx;
+  text-align: center;
+  .canvas {
+    background: url(../images/download.png);
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  .title {
+    color: $white-color;
+    span {
+      color: $second-color;
+    }
+  }
+  @extend %btn;
+}
